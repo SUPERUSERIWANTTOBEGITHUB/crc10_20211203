@@ -25,7 +25,7 @@ class StartFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_start, container, false)
 
-        //some work
+        //val button: View = view.findViewById(R.id.button1)
          return view
         
         return inflater.inflate(R.layout.fragment_start, container, false)
