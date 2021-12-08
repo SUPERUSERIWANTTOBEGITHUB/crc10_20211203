@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12sp"
         android:layout_gravity="center_horizontal|top"
-        android:text="@string/button1" />
+        android:text="@string/start_fragment1" />
 
     <Button
 
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="12sp"
         android:layout_gravity="center_horizontal|bottom"
-        android:text="@string/button2" />
+        android:text="@string/start_fragment2" />
 
     <TextView
 
@@ -33,6 +33,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="100sp"
         android:layout_gravity="center"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/start_fragment" />
 
 </FrameLayout>

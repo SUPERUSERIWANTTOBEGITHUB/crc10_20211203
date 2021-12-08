@@ -4,4 +4,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="button1">button</string>
     <string name="button2">button2</string>
+    <string name="my_fragment">my_fragments</string>
+    <string name="switch_fragment">switch_fragment</string>
+    <string name="start_fragment">start_fragment</string>
+    <string name="start_fragment2">start_fragment2</string>
+    <string name="start_fragment1">start_fragment1</string>
 </resources>
