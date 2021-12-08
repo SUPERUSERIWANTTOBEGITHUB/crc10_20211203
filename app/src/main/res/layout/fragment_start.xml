@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StartFragment">
@@ -8,23 +9,30 @@
     <!-- TODO: Update blank fragment layout -->
 
     <Button
+        android:style="@style/Theme.MyDesignButton"
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
+        android:layout_marginTop="12sp"
+        android:layout_gravity="center_horizontal|top"
         android:text="@string/button1" />
 
     <Button
+        android:style="@style/Theme.MyDesignButton"
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button2"
-        android:gravity="center_horizontal|bottom"/>
+        android:layout_marginBottom="12sp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="@string/button2" />
 
     <TextView
+        android:style="@style/Theme.MyDesignTextView"
         android:id="@+id/text_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="100sp"
+        android:layout_gravity="center"
         android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
