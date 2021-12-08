@@ -1,5 +1,5 @@
 package yvg68.measurer.crc10_20211203
-
+//
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
